@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/837be0c474.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="tailwind.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="shortcut icon" href="https://cdn-icons-png.freepik.com/512/14644/14644979.png?uid=R99649802&"
+    type="image/x-icon">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  <title>Talay Yapı | Galeri</title>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="bg-gray-800 flex flex-col">
+      <div class="bg-red-600 flex items-center justify-center w-12/12">
+        <a href="#" class="flex justify-center items-center">
+          <h1 id="op" class="text-lg font-bold tracking-wide text-white">Çalışmalarımız Devam Ediyor</h1>
+        </a>
+      </div>
+      <div class="bg-gray-50 h-10 flex justify-center items-center px-5">
+        <div class="hidden md:flex justify-center items-center gap-3 mr-auto">
+          <li><a href="#"><i class="text-green-600 md:inline hidden text-xl fa-brands fa-whatsapp"></i></a></li>
+          <li><a href="#"><i class="text-red-600 md:inline hidden text-xl fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="text-gray-600 md:inline hidden text-xl fa-brands fa-x-twitter"></i></a></li>
+        </div>
+        <div class="text-xs md:text-base flex justify-center items-center gap-5">
+          <li><a class="flex justify-center items-center gap-1 hover:bg-green-500 hover:text-green-50 p-2 px-3 md:rounded-none rounded-full text-gray-700" href="mailto:talayyapi@gmail.com">
+              <i class="fa-regular fa-envelope"></i> talayyapi@gmail.com</a></li>
+          <li><a class="flex justify-center items-center gap-1 hover:bg-green-500 hover:text-green-50 p-2 px-3 md:rounded-none rounded-full text-gray-700" href="tel:05391950745">
+              <i class="fa-solid fa-phone"></i> 05391950745</a></li>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar container">
+      <section class="navbar__left">
+        <div class="burger" id="burger">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+        </div>
+      </section>
+      <section class="navbar__center">
+        <span class="overlay"></span>
+        <div class="menu" id="menu">
+          <div class="menu__header">
+            <span class="menu__arrow"><i class="bx bx-chevron-left"></i></span>
+            <span class="menu__title"></span>
+          </div>
+          <ul class="menu__inner">
+            <li class="menu__item menu__dropdown">
+              <a href="#" class="menu__link">
+                Hizmetlerimiz
+                <i class="bx bx-chevron-right"></i>
+              </a>
+              <div class="submenu megamenu__text">
+                <div class="submenu__inner">
+                  <h4 class="submenu__title"><a class="flex items-center justify-center gap-2" href="#">İç Cephe <i
+                        class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a></h4>
+                  <ul class="submenu__list">
+                    <li><a>Karışıva</a></li>
+                    <li><a>Alçı</a></li>
+                    <li><a>Saten</a></li>
+                    <li><a>Kartonpiyer</a></li>
+                    <li><a>Alçıpan</a></li>
+                    <li><a>Yağlı boya</a></li>
+                    <li><a>Kaplama</a></li>
+                    <li><a>LED</a></li>
+                    <li><a>Parke</a></li>
+                    <li><a>Fayans</a></li>
+                    <li><a>Ters tavan</a></li>
+                    <li><a>Boya</a></li>
+                  </ul>
+                </div>
+
+                <div class="submenu__inner">
+                  <h4 class="submenu__title"><a class="flex items-center justify-center gap-2" href="#">Dış Cephe <i
+                        class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a></h4>
+                  <ul class="submenu__list">
+                    <li><a>Karısıvamı</a></li>
+                    <li><a>Döşeme</a></li>
+                    <li><a>Mantolama</a></li>
+                    <li><a>File Kalekim</a></li>
+                    <li><a>Dekoratif</a></li>
+                    <li><a>Boya</a></li>
+                    <li><a>Kaplama</a></li>
+                    <li><a>Yağlı Baskı</a></li>
+                    <li><a>EPS</a></li>
+                    <li><a>Karo</a></li>
+                    <li><a>Çatı Olukları</a></li>
+                    <li><a>Baca</a></li>
+                    <li><a>Membran</a></li>
+                    <li><a>Su Basman Yalıtımı</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="menu__item"><a href="./galery/" class="menu__link">Galeri</a></li>
+            <li class="menu__item"><a href="./harita/" class="menu__link">Faliyet Haritası</a></li>
+            <li class="menu__item"><a href="./iletisim/" class="menu__link">İletişim</a></li>
+
+            <a href="#"
+              class="md:hidden flex justify-center items-center gap-2 absolute bottom-0 py-6 gap-6 w-full text-sm font-bold bg-red-700 text-gray-100">
+              <span>Hemen Ara</span>
+              <i class="md:hidden fa-solid fa-phone"></i>
+            </a>
+
+            <div class="md:hidden flex justify-center items-center absolute bottom-20 gap-6 w-full">
+              <li><a href="#"><i class="text-green-600 md:hidden block text-3xl  fa-brands fa-whatsapp"></i></a></li>
+              <li><a href="#"><i class="text-red-600 md:hidden block text-3xl fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="text-gray-600 md:hidden block text-3xl fa-brands fa-x-twitter"></i></a></li>
+            </div>
+          </ul>
+      </section>
+      <section class="navbar__right">
+        <label for="search" href="#"
+          class="hidden text-gray-900 bg-gray-100 hover:bg-gray-200 py-3 px-4 text-gray-100 rounded-lg font-bold absolute w-11/12 top-20 left-2 md:w-96 md:top-auto md:left-10">
+          <input class="w-full search md:pr-16" type="search" placeholder="Arama" name="" id="search"></label>
+        <a href="index.html" class="brand flex items-center justify-center">
+          <h1 class="md:absolute text-3xl font-bold top-20 left-2 md:top-auto md:left-10 h-12 md:h-14 flex items-center justify-center">Talay Yapı</h1>
+        </a>
+      </section>
+    </nav>
+  </header>
+  <article class="mt-52 pt-1 container relative top-20">
+
+<h1 class="text-xl"><span class="font-bold text-2xl">Talay Yapı'nın</span> bu zamana kadar yaptığı bazı çalışmalar</h1>
+<h2 class="font-bold text-gray-700">Resim Galerisi</h2>
+    <main class="main container mx-auto pb-96">
+      <div class="flex flex-wrap w-full mx-auto gap-6">
+        <div class="card">
+          <div class="card-image">
+            <a href="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
+              <img src="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Gallery">
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <a href="https://images.unsplash.com/photo-1565738156138-fb6feacc32f4?q=80&w=3328&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
+              <img src="https://images.unsplash.com/photo-1565738156138-fb6feacc32f4?q=80&w=3328&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Gallery">
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <a href="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
+              <img src="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Gallery">
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <a href="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
+              <img src="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Gallery">
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <a href="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
+              <img src="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Gallery">
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <a href="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
+              <img src="https://images.unsplash.com/photo-1523618084-5586c1703251?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Image Gallery">
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+ 
+  </article>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new WOW().init(); // Wow.js'i başlat
+      });
+
+    </script>
+
+</body>
+<script>
+  // DOM elemanlarını seçme
+  const menu = document.querySelector(".menu");
+  const menuInner = menu.querySelector(".menu__inner");
+  const menuArrow = menu.querySelector(".menu__arrow");
+  const menuTitle = menu.querySelector(".menu__title");
+  const burger = document.querySelector(".burger");
+  const overlay = document.querySelector(".overlay");
+
+  // Navbar Menüsünü Açma/Kapatma Fonksiyonu
+  function toggleMenu() {
+    // "is-active" sınıfını ekleyerek veya kaldırarak menüyü ve örtüyü gösterme/gizleme
+    menu.classList.toggle("is-active");
+    overlay.classList.toggle("is-active");
+  }
+
+  // Mobil Alt Menüyü Gösterme Fonksiyonu
+  function showSubMenu(children) {
+    // Alt menüyü seçme ve animasyon için sınıfları ekleme
+    const subMenu = children.querySelector(".submenu");
+    subMenu.classList.add("is-active");
+    subMenu.style.animation = "slideLeft 0.35s ease forwards";
+
+    // Alt menü içeriğine göre menü başlığını güncelleme
+    const menuTitleContent = children.querySelector("i").parentNode.childNodes[0].textContent;
+    menu.querySelector(".menu__title").textContent = menuTitleContent;
+    menu.querySelector(".menu__header").classList.add("is-active");
+  }
+
+  // Mobil Alt Menüyü Gizleme Fonksiyonu
+  function hideSubMenu() {
+    // Animasyonla alt menüyü gizleme ve sınıfları kaldırma
+    const subMenu = menu.querySelector(".submenu");
+    subMenu.style.animation = "slideRight 0.35s ease forwards";
+    setTimeout(() => {
+      subMenu.classList.remove("is-active");
+    }, 300);
+
+    // Menü başlığını sıfırlama ve ek sınıfları kaldırma
+    menu.querySelector(".menu__title").textContent = "";
+    menu.querySelector(".menu__header").classList.remove("is-active");
+  }
+
+  // Mobil Alt Menüyü Açma/Kapatma Fonksiyonu
+  function toggleSubMenu(e) {
+    // Alt menüyü işlemeden önce menünün aktif olup olmadığını kontrol etme
+    if (!menu.classList.contains("is-active")) {
+      return;
+    }
+
+    // Tıklanan öğenin alt menü açılır menü içinde olup olmadığını kontrol etme
+    if (e.target.closest(".menu__dropdown")) {
+      const children = e.target.closest(".menu__dropdown");
+      showSubMenu(children);
+    }
+  }
+
+
+
+  // Tüm Olay Dinleyicilerini Başlatma
+  // Menü, örtü, alt menü oku, menü başlığı ve iç menü tıklamaları için olay dinleyicilerini eklemek
+  burger.addEventListener("click", toggleMenu);
+  overlay.addEventListener("click", toggleMenu);
+  menuArrow.addEventListener("click", hideSubMenu);
+  menuTitle.addEventListener("click", hideSubMenu);
+  menuInner.addEventListener("click", toggleSubMenu);
+
+</script>
+<script src="wow.min.js"></script>
+<script>
+  new WOW().init();
+  wow = new WOW(
+    {
+      boxClass: 'wow',
+      animateClass: 'animated',
+      offset: 0,
+      mobile: true,
+      live: true
+    }
+  )
+  wow.init();
+</script>
+
+</html>
+    <script src="script.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
