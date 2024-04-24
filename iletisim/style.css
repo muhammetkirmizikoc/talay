@@ -616,7 +616,6 @@ img {
 
 .burger .burger-line:nth-child(2) {
     top: 8px;
-    width: 70%;
 }
 
 .burger .burger-line:nth-child(3) {
@@ -628,7 +627,7 @@ img {
     outline: none;
 }
 
-/*slider alanÄ±*/
+/*slider alanı*/
 
 .fa-check{
     color: rgb(0, 135, 0);
@@ -764,3 +763,9 @@ img {
     background-color: rgb(210, 232, 252);
     border-radius: 10px;
 }
+
+
+
+
+
+
