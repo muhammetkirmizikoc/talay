@@ -385,7 +385,8 @@ img {
     padding: 20px 15px;
     border-radius: 0.25rem;
     border-top: 2px solid var(--color);
-    background-color: #fff;
+    background-color: #ffffffb9;
+    backdrop-filter: blur(25px);
     box-shadow: var(--shadow-medium);
     opacity: 0;
     visibility: hidden;
@@ -770,7 +771,7 @@ img {
 	 border-bottom: 1px solid #e5e5e5;
 }
  .accordion .accordion-item button[aria-expanded='true'] {
-	 border-bottom: 1px solid #03b5d2;
+	 border-bottom: 1px solid #d20303;
 }
  .accordion button {
 	 position: relative;
@@ -778,7 +779,7 @@ img {
 	 text-align: left;
 	 width: 100%;
 	 padding: 1em 0;
-	 color: #7288a2;
+	 color: #606060;
 	 font-size: 1.15rem;
 	 font-weight: 400;
 	 border: none;
@@ -787,12 +788,12 @@ img {
 }
  .accordion button:hover, .accordion button:focus {
 	 cursor: pointer;
-	 color: #03b5d2;
+	 color: #d20303;
 }
  .accordion button:hover::after, .accordion button:focus::after {
 	 cursor: pointer;
-	 color: #03b5d2;
-	 border: 1px solid #03b5d2;
+	 color: #d20303;
+	 border: 1px solid #d20303;
 }
  .accordion button .accordion-title {
 	 padding: 1em 1.5em 1em 0;
@@ -828,7 +829,7 @@ img {
 	 background: currentColor;
 }
  .accordion button[aria-expanded='true'] {
-	 color: #03b5d2;
+	 color: #c20000;
 }
  .accordion button[aria-expanded='true'] .icon::after {
 	 width: 0;

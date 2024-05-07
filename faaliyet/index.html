@@ -17,10 +17,11 @@
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
-  <title>Talay Yapı | İletişim</title>
+  <title>Talay Yapı | Faliyetlerimiz</title>
 </head>
 
-<body class="bg-cover bg-center">
+<body>
+  
   <header class="header" id="header">
     <div class="bg-gray-800 flex flex-col">
       <div class="bg-red-600 flex items-center justify-center w-12/12">
@@ -139,53 +140,89 @@
       </section>
     </nav>
   </header>
-  <article class="md:mt-36 mt-28 md:pt-1">
+  <article class="mt-40 pt-1">
 
+    <div class="flex items-center justify-center gap-5 md:gap-20 flex-col md:flex-row" style="height: 80vh;">
 
-    <div id="iletisim-alan"
-      class="py-10 container mx-auto  mt-5 flex px-0 md:flex-row flex-col justify-center items-center">
-      <div
-        class="bg-cover bg-center md:w-7/12 py-10 rounded backdrop-filter backdrop-blur-xl md:backdrop-blur-3xl w-full"
-        style="z-index: 2;">
-        <h1 class="text-center font-bold text-gray-100 text-5xl" style="text-shadow: 1px 1px 25px rgba(0, 0, 0, 0.862);">Size Ulaşalım!</h1>
-        <form class="flex flex-col" id="fs-frm" name="complaint-form" accept-charset="utf-8"
-          action="https://formspree.io/f/moqglnja" method="post">
-          <fieldset class="w-full flex flex-col justify-center gap-5 border-none" id="fs-frm-inputs">
-            <div class="flex flex-col mt-1 p-1">
-              <label class="text-gray-700 font-bold text-sm pl-1" for="full-name">İsminiz <span
-                  class="text-red-600">*</span></label>
-              <input class="my-1 bg-gray-100 p-3" type="text" name="name" id="full-name" placeholder="" required="">
-            </div>
-            <div class="flex flex-col mt-1 p-1">
-              <label class="text-gray-700 font-bold text-sm pl-1" for="email-address">Email Addresi</label>
-              <input class="my-1 bg-gray-100 p-3" type="email" name="_replyto" id="email-address" placeholder="">
-            </div>
-            <div class="flex flex-col mt-1 p-1">
-              <label class="text-gray-700 font-bold text-sm pl-1" for="telephone">Telefon Numarası <span
-                  class="text-red-600">*</span></label>
-              <input class="my-1 bg-gray-100 p-3" type="telephone" name="telephone" id="telephone" placeholder=""
-                required="">
-            </div>
-            <div class="flex flex-col p-1">
-              <label class="text-gray-700 font-bold text-sm" for="complaint">Detay Veririmisiniz?</label>
-              <textarea class="my-1 bg-gray-100 p-3" rows="6" name="complaint" id="complaint" placeholder=""></textarea>
-            </div>
-            <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
-          </fieldset>
-          <input
-            class="mx-3 py-3 font-bold bg-red-700 rounded shadow-lg text-gray-100 h-12 flex items-center justify-center cursor-pointer"
-            type="submit" value="Gönder">
-        </form>
-
+      <div id="box" class="relative md:w-4/12 w-11/12 h-96 bg-cover bg-center rounded md:h-96 bg-blue-500 border"
+        style="background-image: url(https://img.freepik.com/free-photo/front-view-man-working-wearing-protection-gear_23-2148784098.jpg?t=st=1714059251~exp=1714062851~hmac=9e12d1594db7f7cd8e65fa72cdc4d8c7e66d932033156207a6eceaf8d97e8d05&w=2000);">
+        <a href="#" id="box-a"
+          class="absolute w-full h-14 bottom-0 text-xl font-bold text-gray-50 bg-red-600 p-2 px-3"><span id="span">İç
+            Cephe Çalışmaları</span> <i class="fa-solid fa-arrow-right"></i></a>
       </div>
 
-      <div class="top h-52 w-9/12 md:w-96 md:h-72 bg-yellow-50 md:bg-yellow-100 absolute md:top-52 top-36 rounded-full"
-        style="z-index: 1;"></div>
+
+      <div id="box" class="relative md:w-4/12 w-11/12 h-96 bg-cover bg-center rounded md:h-96 bg-blue-500"
+        style="background-image: url(https://www.americanrenovationssc.com/wp-content/uploads/2019/10/HomeImprovement-184104512.jpg);">
+        <a href="#" id="box-a"
+          class="absolute w-full h-14 bottom-0 text-xl font-bold text-gray-50 bg-red-600 p-2 px-3"><span id="span">Dış
+            Cephe Çalışmaları</span> <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      
+    <a href="#alan" id="in" class="bg-red-600 p-2 px-3 rounded-full border text-3xl text-gray-50 md:block hidden md:absolute 0 md:bottom-5 fa-solid fa-chevron-down"></a>
+    </div>
+
+<div id="alan" class="md:pt-96 pt-20">
+  <div id="ic-cephe" class="text-gray-800 md:w-7/12 container mx-auto py-3 px-5 bg-gray-50 rounded" >
+    <h1 class="font-bold md:text-3xl text-2xl"><span class="border-b-4 border-red-600">İç Cephe Faliyetlerimiz</span></h1>
+    <ul class="text-lg flex flex-col gap-4 my-10 px-3" id="list">
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Karışıva</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Alçı</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Saten</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Kartonpiyer</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Alçıpan</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Yağlı boya</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Kaplama</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>LED</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Parke</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Fayans</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Ters tavan</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Boya</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="alan" class="md:pt-96 pt-20">
+  <div id="ic-cephe" class="text-gray-800 md:w-7/12 container mx-auto py-3 px-5 bg-gray-50 rounded" >
+    <h1 class="font-bold md:text-3xl text-2xl"><span class="border-b-4 border-red-600">Dış Cephe Faliyetlerimiz</span></h1>
+    <ul class="text-lg flex flex-col gap-4 my-10 px-3" id="list">
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Karışıva</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Alçı</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Saten</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Kartonpiyer</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Alçıpan</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Yağlı boya</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Kaplama</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>LED</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Parke</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Fayans</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Ters tavan</a></li>
+      <li class="hover:text-gray-50 text-lg md:text-xl"><a>Boya</a></li>
+    </ul>
+  </div>
+</div>
+    <div id="faliyet-haritasi" class="py-5 my-10">
+      <div class="container mx-auto my-10">
+        <h1 class="text-3xl my-5"><span class="font-bold"> Talay Yapı </span>Türkiye'deki Faaliyetlerimizin Haritası
+        </h1>
+        <h2 class="text-2xl mb-10">Haritamız, geçmişten günümüze Türkiye'nin çeşitli bölgelerinde başarıyla
+          tamamladığımız
+          projeleri ve faaliyetleri nokta şeklinde göstermektedir. Bu izler, stratejik yapı faaliyetlerimizin kapsamını
+          ve
+          etkisini görsel olarak yansıtmaktadır.</h2>
+        <div class=" container bg-gray-300 flex items-center justify-center text-xl" style="height: 60vh;">
+          Bu alan Harita Yerleşitrilecek
+        </div>
+      </div>
+
     </div>
 
 
-  </article>
 
+
+
+
+  </article>
 
 
   <footer>
@@ -250,6 +287,13 @@
       Copyright © Talay Yapı ve İnşaat 2024. Tüm hakları saklıdır.</div>
   </footer>
 </body>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new WOW().init(); // Wow.js'i başlat
+  });
+
+</script>
 <script>
   // DOM elemanlarını seçme
   const menu = document.querySelector(".menu");
@@ -332,13 +376,5 @@
   )
   wow.init();
 </script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    new WOW().init(); // Wow.js'i başlat
-  });
-
-</script>
-
-
 
 </html>

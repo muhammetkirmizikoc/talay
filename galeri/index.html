@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="video.css">
   <link rel="stylesheet" href="tailwind.css">
+  <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
   <link rel="shortcut icon" href="https://cdn-icons-png.freepik.com/512/14644/14644979.png?uid=R99649802&"
@@ -22,11 +23,13 @@
 </head>
 
 <body>
+
   <header class="header" id="header">
     <div class="bg-gray-800 flex flex-col">
       <div class="bg-red-600 flex items-center justify-center w-12/12">
         <a href="#" class="flex justify-center items-center">
-          <h1 id="op" class="text-lg font-bold tracking-wide text-white">Çalışmalarımız Devam Ediyor</h1>
+          <h1 id="op" class="text-sm md:text-lg font-bold tracking-wide text-white flex justify-center items-center">
+            <span>Güncel Projelere Göz Atın. Ne Yapıyoruz</span><i class="ml-1 fa-solid fa-arrow-right"></i></h1>
         </a>
       </div>
       <div class="bg-gray-50 h-10 flex justify-center items-center px-5">
@@ -36,9 +39,13 @@
           <li><a href="#"><i class="text-gray-600 md:inline hidden text-xl fa-brands fa-x-twitter"></i></a></li>
         </div>
         <div class="text-xs md:text-base flex justify-center items-center gap-5">
-          <li><a class="flex justify-center items-center gap-1 hover:bg-green-500 hover:text-green-50 p-2 px-3 md:rounded-none rounded-full text-gray-700" href="mailto:talayyapi@gmail.com">
+          <li><a
+              class="flex justify-center items-center gap-1 hover:bg-green-500 hover:text-green-50 p-2 px-3 md:rounded-none rounded-full text-gray-700"
+              href="mailto:talayyapi@gmail.com">
               <i class="fa-regular fa-envelope"></i> talayyapi@gmail.com</a></li>
-          <li><a class="flex justify-center items-center gap-1 hover:bg-green-500 hover:text-green-50 p-2 px-3 md:rounded-none rounded-full text-gray-700" href="tel:05391950745">
+          <li><a
+              class="flex justify-center items-center gap-1 hover:bg-green-500 hover:text-green-50 p-2 px-3 md:rounded-none rounded-full text-gray-700"
+              href="tel:05391950745">
               <i class="fa-solid fa-phone"></i> 05391950745</a></li>
         </div>
       </div>
@@ -64,10 +71,10 @@
                 Hizmetlerimiz
                 <i class="bx bx-chevron-right"></i>
               </a>
-              <div class="submenu megamenu__text">
+              <div class="submenu megamenu__text ">
                 <div class="submenu__inner">
-                  <h4 class="submenu__title"><a class="flex items-center justify-center gap-2" href="#">İç Cephe <i
-                        class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a></h4>
+                  <h4 class="submenu__title"><a class="flex items-center justify-center font-bold" href="#">İç Cephe</a>
+                  </h4>
                   <ul class="submenu__list">
                     <li><a>Karışıva</a></li>
                     <li><a>Alçı</a></li>
@@ -85,8 +92,8 @@
                 </div>
 
                 <div class="submenu__inner">
-                  <h4 class="submenu__title"><a class="flex items-center justify-center gap-2" href="#">Dış Cephe <i
-                        class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a></h4>
+                  <h4 class="submenu__title"><a class="flex items-center justify-center font-bold" href="#">Dış Cephe
+                    </a></h4>
                   <ul class="submenu__list">
                     <li><a>Karısıvamı</a></li>
                     <li><a>Döşeme</a></li>
@@ -128,7 +135,9 @@
           class="hidden text-gray-900 bg-gray-100 hover:bg-gray-200 py-3 px-4 text-gray-100 rounded-lg font-bold absolute w-11/12 top-20 left-2 md:w-96 md:top-auto md:left-10">
           <input class="w-full search md:pr-16" type="search" placeholder="Arama" name="" id="search"></label>
         <a href="index.html" class="brand flex items-center justify-center">
-          <h1 class="md:absolute text-3xl font-bold top-20 left-2 md:top-auto md:left-10 h-12 md:h-14 flex items-center justify-center">Talay Yapı</h1>
+          <h1
+            class="md:absolute text-3xl font-bold top-20 left-2 md:top-auto md:left-10 h-12 md:h-14 flex items-center justify-center">
+            Talay Yapı</h1>
         </a>
       </section>
     </nav>
@@ -190,43 +199,66 @@
 
 
 
+  <footer>
+    <div id="footer" class="bg-gray-800 text-white w-full flex p-10  pt-14 gap-4 md:flex-row flex-col">
+      <div class="tracking-wide md:w-4/12 text-4xl text-center font-bold">Talay yapı <h1 class="text-xs font-bold">20
+          Yıldan bu güne <br> Daima ileri!</h1>
+      </div>
 
-  <footer id="footer" class="bg-gray-800 text-white w-full flex p-10 pb-40 pt-14 gap-4 md:flex-row flex-col">
-    <div class="tracking-wide md:w-4/12 text-4xl text-center font-bold">Talay yapı <h1 class="text-xs font-bold">20
-        Yıldan bu güne <br> Daima ileri!</h1>
+      <div class="md:w-3/12">
+        <h1 class="text-3xl font-bold">Biz Kimiz?</h1>
+        <span>
+          Talay Yapı, 10 yıldan uzun süredir inşaat sektöründe iz bırakan bir başarı hikayesi yazıyor. Deneyimli ekibi
+          ve
+          80'den fazla tamamlanan projesiyle, kaliteli hizmet sunmaya devam ediyor. İç cephe ve dış cephe tamiratlarında
+          uzmanlaşmış olan Talay Yapı, estetik ve dayanıklılığı bir araya getirerek müşterilerine çözümler
+          sunuyor.</span>
+      </div>
+      <div class="md:w-3/12">
+        <h1 class="text-3xl font-bold">Hızlı Bağlantılar</h1>
+        <li class="hover:text-red-600 text-gray-400"><a href="#">Galeri <i
+              class="fa-solid fa-arrow-up-right-from-square text-xs"></i></li></a>
+        <li class="hover:text-red-600 text-gray-400"><a href="#">Faliyet Haritası <i
+              class="fa-solid fa-arrow-up-right-from-square text-xs"></i></li></a>
+      </div>
+      <div class="md:w-3/12 md:ml-4">
+        <h1 class="text-3xl font-bold">İletişim</h1>
+        <li class="hover:text-red-600 text-gray-400"><a href="tel:05491960534"><i class="fa-solid fa-phone"></i>
+            05491960534 <i class="fa-solid fa-arrow-up-right-from-square text-xs"> </i></li></a>
+        <li class="text-gray-400 ">
+        <li class="hover:text-red-600 text-gray-400"><a href="mailto:talayyapi@gmail.com"><i
+              class="fa-regular fa-envelope"></i>
+            05491960534 <i class="fa-solid fa-arrow-up-right-from-square text-xs"> </i></li></a>
+        <li class="text-gray-400 ">
+
+
+          <a href="#">
+            <h2 class="font-bold text-xl">Adres ve Kapsam </h2>
+        <li><a href="#">Kuruluşumuzdan bu güne Merkeziyetsiz algımızla hizmet vermketeyiz. <br> Tüm Dünyadayız!</a>
+        </li></a>
+
+        <div class="flex mt-4 gap-4">
+          <li><a href="#"><i class="text-green-600 md:inline hidden md:text-3xl fa-brands fa-whatsapp"></i></a></li>
+          <li><a href="#"><i class="text-red-600 md:inline hidden md:text-3xl fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="text-gray-300 md:inline hidden md:text-3xl fa-brands fa-x-twitter"></i></a></li>
+        </div>
+      </div>
+      <a href="#">
+        <span
+          class="md:inline hidden fixed bottom-9 right-24 bg-gray-50 text-gray-900 p-1 px-2 rounded-full shadow-inner shadow-2xl animate__animated animate__backInRight animate__delay-3s wow">Size
+          Nasıl Yardımcı olabiliriz?</span>
+        <img class="w-14 fixed bottom-6 right-8  rounded bg-cover bg-center shadow-xl hover:shadow-inner"
+          src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_23-whatsapp-512.png"
+          alt="">
+      </a>
+      <a class="fixed bottom-8 left-8 flex items-center justify-center bg-red-700 h-12 w-12 rounded-full shadow-2xl"
+        style="box-shadow: 0px 0px 50px rgb(53, 52, 52);" href="#top"><i class="fa-solid fa-arrow-up text-2xl"></i> </a>
+
     </div>
 
-    <div class="md:w-3/12">
-      <h1 class="text-3xl font-bold">Neler yapıyoruz</h1>
-      <li class="hover:text-red-600 text-gray-400"><a href="#">İç Cephe <i
-            class="fa-solid fa-arrow-up-right-from-square text-xs"></i></li></a>
-      <li class="hover:text-red-600 text-gray-400"><a href="#">Dış cephe <i
-            class="fa-solid fa-arrow-up-right-from-square text-xs"></i></li></a>
-    </div>
-    <div class="md:w-3/12">
-      <h1 class="text-3xl font-bold">Projeler</h1>
-      <li class="hover:text-red-600 text-gray-400"><a href="#">Planlanmış projeler <i
-            class="fa-solid fa-arrow-up-right-from-square text-xs"></i></li></a>
-      <li class="hover:text-red-600 text-gray-400"><a href="#">Tamamlanan projeler <i
-            class="fa-solid fa-arrow-up-right-from-square text-xs"></i></li></a>
-    </div>
-    <div class="md:w-3/12 md:ml-4">
-      <h1 class="text-3xl font-bold">İletişim</h1>
-      <li class="text-gray-400 "><a href="#">Siz neredeyseniz biz ordayız!</li></a>
-      <li class="hover:text-red-600 text-gray-400"><a href="tel:05491960534">+905491960534 <i
-            class="fa-solid fa-arrow-up-right-from-square text-xs"> </i></li></a>
-
-    </div>
-    <a href="#">
-      <span
-        class="md:inline hidden fixed bottom-9 right-24 bg-gray-50 text-gray-900 p-1 px-2 rounded-full shadow-inner shadow-2xl animate__animated animate__backInRight animate__delay-3s wow">Size
-        Nasıl Yardımcı olabiliriz?</span>
-      <img class="w-14 fixed bottom-6 right-8  rounded bg-cover bg-center shadow-xl hover:shadow-inner"
-        src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_23-whatsapp-512.png"
-        alt="">
-    </a>
-    <a class="fixed bottom-8 left-8 flex items-center justify-center bg-red-700 h-12 w-12 rounded-full shadow-inner shadow-2xl"
-      style="box-shadow: 0px 0px 50px rgb(53, 52, 52);" href="#top"><i class="fa-solid fa-arrow-up text-2xl"></i> </a>
+    <div
+      class=" pt-20 bg-gray-800 flex items-center justify-center text-gray-400 p-1 py-2 text-sm font-bold text-center">
+      Copyright © Talay Yapı ve İnşaat 2024. Tüm hakları saklıdır.</div>
   </footer>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
