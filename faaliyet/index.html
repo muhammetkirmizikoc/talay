@@ -142,10 +142,20 @@
   </header>
   <article class="mt-40 pt-1">
 
-    <div class="flex items-center justify-center gap-5 md:gap-20 flex-col md:flex-row" style="height: 80vh;">
+    <div class="flex items-center justify-center gap-5 md:gap-20 flex-col md:flex-row bg-cover bg-center" style="background-image: url(https://img.freepik.com/free-photo/abstract-black-gray-grunge-texture-pattern-background_84443-3250.jpg?t=st=1715275434~exp=1715279034~hmac=6cb644c587edd53d4f6c2e5eda8159a09037fafd1a17b51bafaefb27730c3f75&w=2000); height: 80vh;">
 
-      <div id="box" class="relative md:w-4/12 w-11/12 h-96 bg-cover bg-center rounded md:h-96 bg-blue-500 border"
-        style="background-image: url(https://img.freepik.com/free-photo/front-view-man-working-wearing-protection-gear_23-2148784098.jpg?t=st=1714059251~exp=1714062851~hmac=9e12d1594db7f7cd8e65fa72cdc4d8c7e66d932033156207a6eceaf8d97e8d05&w=2000);">
+     
+
+
+  
+     <div class="btn text-white flex md:gap-40 gap-7 absolute bottom-52 md:flex-row flex-col">
+      <a class="cursor-pointer bg-red-700 p-4 px-5 text-lg hover:bg-gray-50 font-bold shadow hover:shadow-inner hover:text-red-700" href="#">İç Cephe Danışmanı</a>
+      <a class="cursor-pointer bg-red-700 p-4 px-5 text-lg hover:bg-gray-50 font-bold shadow hover:shadow-inner hover:text-red-700" href="#">Dış Cephe Danışmanı</a>
+     </div>
+     
+     
+      <!-- <div id="box" class="relative md:w-4/12 w-11/12 h-96 bg-cover bg-center rounded md:h-96 border"
+        style="background-image: url(https://i.hizliresim.com/6feha1e.jpeg);">
         <a href="#" id="box-a"
           class="absolute w-full h-14 bottom-0 text-xl font-bold text-gray-50 bg-red-600 p-2 px-3"><span id="span">İç
             Cephe Çalışmaları</span> <i class="fa-solid fa-arrow-right"></i></a>
@@ -153,18 +163,20 @@
 
 
       <div id="box" class="relative md:w-4/12 w-11/12 h-96 bg-cover bg-center rounded md:h-96 bg-blue-500"
-        style="background-image: url(https://www.americanrenovationssc.com/wp-content/uploads/2019/10/HomeImprovement-184104512.jpg);">
+        style="background-image: url(https://i.hizliresim.com/tgvoh3u.jpeg);">
         <a href="#" id="box-a"
           class="absolute w-full h-14 bottom-0 text-xl font-bold text-gray-50 bg-red-600 p-2 px-3"><span id="span">Dış
             Cephe Çalışmaları</span> <i class="fa-solid fa-arrow-right"></i></a>
-      </div>
+      </div> -->
       
-    <a href="#alan" id="in" class="bg-red-600 p-2 px-3 rounded-full border text-3xl text-gray-50 md:block hidden md:absolute 0 md:bottom-5 fa-solid fa-chevron-down"></a>
+    <a href="#ic-cephe" id="in" class="bg-red-600 p-2 px-3 rounded-full border text-3xl text-gray-50 md:block hidden md:absolute 0 md:bottom-5 fa-solid fa-chevron-down"></a>
     </div>
 
-<div id="alan" class="md:pt-96 pt-20">
-  <div id="ic-cephe" class="text-gray-800 md:w-7/12 container mx-auto py-3 px-5 bg-gray-50 rounded" >
-    <h1 class="font-bold md:text-3xl text-2xl"><span class="border-b-4 border-red-600">İç Cephe Faliyetlerimiz</span></h1>
+<div id="alan" class="flex flex-col gap-32">
+
+
+  <div class="text-gray-800 md:w-7/12 container mx-auto py-3 px-5 bg-gray-50 rounded" >
+    <h1 id="ic-cephe" class="font-bold md:text-3xl text-2xl"><span class="border-b-4 border-red-600">İç Cephe Faliyetlerimiz</span></h1>
     <ul class="text-lg flex flex-col gap-4 my-10 px-3" id="list">
       <li class="hover:text-gray-50 text-lg md:text-xl"><a>Karışıva</a></li>
       <li class="hover:text-gray-50 text-lg md:text-xl"><a>Alçı</a></li>
@@ -180,10 +192,9 @@
       <li class="hover:text-gray-50 text-lg md:text-xl"><a>Boya</a></li>
     </ul>
   </div>
-</div>
 
-<div id="alan" class="md:pt-96 pt-20">
-  <div id="ic-cephe" class="text-gray-800 md:w-7/12 container mx-auto py-3 px-5 bg-gray-50 rounded" >
+
+  <div id="dis-cephe" class="text-gray-800 md:w-7/12 container mx-auto py-3 px-5 bg-gray-50 rounded" >
     <h1 class="font-bold md:text-3xl text-2xl"><span class="border-b-4 border-red-600">Dış Cephe Faliyetlerimiz</span></h1>
     <ul class="text-lg flex flex-col gap-4 my-10 px-3" id="list">
       <li class="hover:text-gray-50 text-lg md:text-xl"><a>Karışıva</a></li>
