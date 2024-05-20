@@ -635,17 +635,6 @@ img {
     color: rgb(0, 135, 0);
     transform: scale(1.1);
 }
-#op {
-    animation-name: op;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes op {
-    50% {
-        opacity: 0;
-    }
-}
 
 /*slider*/
 .mySlides {
@@ -798,6 +787,7 @@ img {
 }
  .accordion button .accordion-title {
 	 padding: 1em 1.5em 1em 0;
+     margin: 0 2px;
 }
  .accordion button .icon {
 	 display: inline-block;
@@ -837,7 +827,7 @@ img {
 }
  .accordion button[aria-expanded='true'] + .accordion-content {
 	 opacity: 1;
-	 max-height: 9em;
+	 max-height: 22rem;
 	 transition: all 200ms linear;
 	 will-change: opacity, max-height;
 }
@@ -853,4 +843,3 @@ img {
 	 font-weight: 300;
 	 margin: 2em 0;
 }
- 
