@@ -24,10 +24,10 @@
 
 <body>
 
-  <header class="header" id="header">
+  <header class="header bg-gray-50" id="header">
     <div class="bg-gray-800 flex flex-col">
       <div class="bg-red-600 flex items-center justify-center w-12/12">
-        <a href="#" class="flex justify-center items-center">
+        <a href="../index.html" class="flex justify-center items-center">
           <h1 id="op" class="text-sm md:text-lg font-bold tracking-wide text-white flex justify-center items-center">
             <span>Güncel Projelere Göz Atın. Ne Yapıyoruz</span><i class="ml-1 fa-solid fa-arrow-right"></i></h1>
         </a>
@@ -45,12 +45,12 @@
               <i class="fa-regular fa-envelope"></i> talayyapi@gmail.com</a></li>
           <li><a
               class="flex justify-center items-center gap-1 hover:bg-green-500 hover:text-green-50 p-2 px-3 md:rounded-none rounded-full text-gray-700"
-              href="tel:05391950745">
-              <i class="fa-solid fa-phone"></i> 05391950745</a></li>
+              href="tel:+905458432288">
+              <i class="fa-solid fa-phone"></i> +90 545 843 22 88</a></li>
         </div>
       </div>
     </div>
-    <nav class="navbar container">
+    <nav class="navbar container py-12">
       <section class="navbar__left">
         <div class="burger" id="burger">
           <span class="burger-line"></span>
@@ -66,6 +66,7 @@
             <span class="menu__title"></span>
           </div>
           <ul class="menu__inner">
+            <li class="menu__item"><a href="index.html" class="menu__link">Anasayfa</a></li>
             <li class="menu__item menu__dropdown">
               <a href="#" class="menu__link">
                 Hizmetlerimiz
@@ -113,8 +114,8 @@
                 </div>
               </div>
             </li>
-            <li class="menu__item"><a href="./galery/" class="menu__link">Galeri</a></li>
-            <li class="menu__item"><a href="./harita/" class="menu__link">Faliyet Haritası</a></li>
+            <li class="menu__item"><a href="./galeri/" class="menu__link">Galeri</a></li>
+            <li class="menu__item"><a href="./faaliyet/" class="menu__link">Faliyet Haritası</a></li>
             <li class="menu__item"><a href="./iletisim/" class="menu__link">İletişim</a></li>
 
             <a href="#"
@@ -135,20 +136,21 @@
           class="hidden text-gray-900 bg-gray-100 hover:bg-gray-200 py-3 px-4 text-gray-100 rounded-lg font-bold absolute w-11/12 top-20 left-2 md:w-96 md:top-auto md:left-10">
           <input class="w-full search md:pr-16" type="search" placeholder="Arama" name="" id="search"></label>
         <a href="index.html" class="brand flex items-center justify-center">
-          <h1
-            class="md:absolute text-3xl font-bold top-20 left-2 md:top-auto md:left-10 h-12 md:h-14 flex items-center justify-center">
-            Talay Yapı</h1>
+          <img
+            src="../logo.png" style="transform: scale(2);" class="md:absolute text-6xl font-bold top-20 left-5 md:top-auto md:left-14 h-12 md:h-14 flex items-center justify-center">
+            </img>
         </a>
       </section>
     </nav>
   </header>
-  <article class="mt-20 px-5 md:mt-32 pt-1 md:w-11/12 mx-auto relative top-20">
+  
+  <article class="mt-20 px-3 md:px-5 md:mt-32 pt-1 md:w-11/12 mx-auto relative top-20">
 
-<h1 class="text-xl"><span class="font-bold text-2xl">Talay Yapı'nın</span> bu zamana kadar yaptığı çalışmalar</h1>
+<h1 class="text-xl mt-10"><span class="font-bold text-2xl">Talay Yapı'nın</span> bu zamana kadar yaptığı çalışmalar</h1>
 <div class="mt-12">
   <h2 class="font-bold text-gray-800  p-2 text-center rounded">İç Cephe Çalışmalarımız</h2>
-    <main class="main container mx-auto py-10 pb-40">
-      <div class="flex flex-wrap w-full mx-auto gap-6">
+    <main class="main md:container mx-auto py-10 pb-40">
+      <div class="flex flex-wrap justify-center items-center w-full mx-auto gap-6">
         <div class="card">
           <div class="card-image">
             <a href="https://i.hizliresim.com/ix3hiw7.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
@@ -231,8 +233,8 @@
 </script>
 <div class="my-1">
   <h2 class="font-bold text-gray-800  p-2 text-center rounded">Dış Cephe Çalışmalarımız</h2>
-    <main class="main container mx-auto py-10 pb-40">
-      <div class="flex flex-wrap w-full mx-auto gap-6">
+    <main class="main md:container mx-auto py-10 pb-40">
+      <div class="flex flex-wrap justify-center items-center w-full mx-auto gap-6">
         <div class="card">
           <div class="card-image">
             <a href="https://i.hizliresim.com/elgeoh2.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
