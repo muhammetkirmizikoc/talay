@@ -33,3 +33,8 @@
     object-fit: cover;
     border-radius: 2px;
 }
+#calisma-baslik{
+    box-shadow: inset 5px 0 rgb(197, 0, 0);
+    padding: 0 10px;
+    border-radius: 0;
+}
