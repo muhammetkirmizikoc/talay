@@ -29,7 +29,8 @@
       <div class="bg-red-600 flex items-center justify-center w-12/12">
         <a href="../index.html" class="flex justify-center items-center">
           <h1 id="op" class="text-sm md:text-lg font-bold tracking-wide text-white flex justify-center items-center">
-            <span>Güncel Projelere Göz Atın. Ne Yapıyoruz</span><i class="ml-1 fa-solid fa-arrow-right"></i></h1>
+            <span>Güncel Projelere Göz Atın. Ne Yapıyoruz</span><i class="ml-1 fa-solid fa-arrow-right"></i>
+          </h1>
         </a>
       </div>
       <div class="bg-gray-50 h-10 flex justify-center items-center px-5">
@@ -136,180 +137,229 @@
           class="hidden text-gray-900 bg-gray-100 hover:bg-gray-200 py-3 px-4 text-gray-100 rounded-lg font-bold absolute w-11/12 top-20 left-2 md:w-96 md:top-auto md:left-10">
           <input class="w-full search md:pr-16" type="search" placeholder="Arama" name="" id="search"></label>
         <a href="index.html" class="brand flex items-center justify-center">
-          <img
-            src="../logo.png" style="transform: scale(2);" class="md:absolute text-6xl font-bold top-20 left-5 md:top-auto md:left-14 h-12 md:h-14 flex items-center justify-center">
-            </img>
+          <img src="../logo.png" style="transform: scale(2);"
+            class="md:absolute text-6xl font-bold top-20 left-5 md:top-auto md:left-14 h-12 md:h-14 flex items-center justify-center">
+          </img>
         </a>
       </section>
     </nav>
   </header>
-  
-  <article class="mt-20 px-3 md:px-5 md:mt-32 pt-1 md:w-11/12 mx-auto relative top-20">
-<div class="mt-12">
-  <h2 id="calisma-baslik" class="font-bold text-gray-800  p-2 rounded">İç Cephe Çalışmalarımız</h2>
-    <main class="main md:container mx-auto py-10 pb-40">
-      <div class="flex flex-wrap justify-center items-center w-full mx-auto gap-6">
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/ix3hiw7.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/ix3hiw7.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/t1rjumz.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/t1rjumz.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/6feha1e.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/6feha1e.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/jww6vg3.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/jww6vg3.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/248hacv.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/248hacv.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/mjrpszs.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/mjrpszs.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/5a6voew.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/5a6voew.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/o40kfmw.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/o40kfmw.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/9scx3fy.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/9scx3fy.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-      </div>
-    </main> 
-</div>
 
-<script>
-  // butun card lara class ekleıtılıyo bu kodda
-  document.addEventListener("DOMContentLoaded", function() {
-    var cards = document.querySelectorAll('.card'); // Tüm card sınıfı taşıyan öğeleri seç
+  <article class="px-3 md:px-5 md:mt-32 pt-1 md:w-11/12 mx-auto relative top-20">
 
-    cards.forEach(function(card) { // Her bir card öğesi için
-      card.classList.add('wow', 'animate__animated', 'animate__zoomIn'); // İlgili sınıfları ekle
-    });
-  });
-</script>
-<div class="my-1">
-  <h2 id="calisma-baslik" class="font-bold text-gray-800  p-2 rounded">Dış Cephe Çalışmalarımız</h2>
-    <main class="main md:container mx-auto py-10 pb-40">
-      <div class="flex flex-wrap justify-center items-center w-full mx-auto gap-6">
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/elgeoh2.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/elgeoh2.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/rst27ri.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/rst27ri.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/mj6u188.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/mj6u188.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/i5065t4.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/i5065t4.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/tgvoh3u.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/tgvoh3u.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/f7qd0mp.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/f7qd0mp.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/b9gc7xm.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/b9gc7xm.jpeg" alt="Image Gallery">
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <a href="https://i.hizliresim.com/eulcdwp.jpeg" data-fancybox="gallery" data-caption="Örnek Açıklama Yazılması için alan">
-              <img src="https://i.hizliresim.com/eulcdwp.jpeg" alt="Image Gallery">
-            </a>
-          </div>
+
+    <!-- Video sayfa açılış  -->
+    <!-- <div class="w-full flex items-center justify-center md:gap-10 gap-4 mx-auto" style="width: 100%; height: 85vh;">
+      <div style="z-index: 1;" class="video-container absolute">
+        <video id="myVideo" loop autoplay muted class="h-full rounded" style="width: 1100px;">
+          <source src="videp.mp4" type="video/mp4">
+        </video>
       </div>
-    </main> 
-</div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <a style="z-index: 3;"
+        class="bg-red-600 text-white shadow-2xl py-3 px-5 text-lg font-bold rounded-sm hover:bg-white hover:text-red-600"
+        href="#">İç
+        Cephe Çalışmalarımız <i class="fa-solid fa-arrow-down"></i></a>
+      <a style="z-index: 3;"
+        class="bg-red-600 text-white shadow-2xl py-3 px-5 text-lg font-bold rounded-sm hover:bg-white hover:text-red-600"
+        href="#">Dış
+        Cephe Çalışmalarımız <i class="fa-solid fa-arrow-down"></i></a>
+      <script>
+        // Video elementini seçin
+        var eles = document.getElementById("myVideo");
+
+        eles.playbackRate = 6;
+      </script>
+    </div> -->
+
+    <div class="md:mt-0 mt-28 rounded wow animate__animated animate__backInDown animate__delay w-full bg-cover bg-cente bg-gray-50 flex justify-center items-center relative"
+      style="height: 70vh ; background-image: url(https://img.freepik.com/free-photo/front-view-men-posing-together_23-2148752020.jpg?t=st=1716566892~exp=1716570492~hmac=8aadf16e73bbc7b40148c9f73cf0bfaed25e37650751a594124228bf438b7dd7&w=1800);">
+      <div class="absolute md:bottom-16 md:left-10 bottom-5 left-3 flex md:gap-10 gap-3 md:flex-row flex-col">
+        <a id="btn" class="wow animate__animated animate__zoomIn bg-red-600 text-white shadow-2xl hove:shadow-inner py-2 px-4 md:py-3 md:px-5 hover:shadow-2xl md:text-lg text-xl font-bold rounded-sm hover:bg-white hover:text-red-600"
+          href="#ic-cephe">İç
+          Cephe Çalışmalarımız <i class="fa-solid fa-arrow-down ml-3 md:ml-0"></i></a>
+        <a id="btn" class="wow animate__animated animate__zoomIn bg-red-600 text-white shadow-2xl hove:shadow-inner py-2 px-4 md:py-3 md:px-5 hover:shadow-2xl md:text-lg text-xl font-bold rounded-sm hover:bg-white hover:text-red-600"
+          href="#dis-cephe">Dış
+          Cephe Çalışmalarımız <i class="fa-solid fa-arrow-down"></i></a>
+      </div>
+    </div>
+
+
+
+
+    <div class="pt-52" id="ic-cephe">
+
+
+      <h2 id="calisma-baslik" class="font-bold text-gray-800  p-2 rounded">İç Cephe Çalışmalarımız</h2>
+      <main class="main md:container mx-auto py-10 pb-40">
+        <div class="flex flex-wrap justify-center items-center w-full mx-auto gap-6">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/ix3hiw7.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/ix3hiw7.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/t1rjumz.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/t1rjumz.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/6feha1e.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/6feha1e.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/jww6vg3.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/jww6vg3.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/248hacv.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/248hacv.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/mjrpszs.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/mjrpszs.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/5a6voew.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/5a6voew.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/o40kfmw.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/o40kfmw.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      // butun card lara class ekleıtılıyo bu kodda
+      document.addEventListener("DOMContentLoaded", function () {
+        var cards = document.querySelectorAll('.card'); // Tüm card sınıfı taşıyan öğeleri seç
+
+        cards.forEach(function (card) { // Her bir card öğesi için
+          card.classList.add('wow', 'animate__animated', 'animate__zoomIn'); // İlgili sınıfları ekle
+        });
+      });
+    </script>
+    <div class="my-1 pt-52" id="dis-cephe">
+      <h2 id="calisma-baslik" class="font-bold text-gray-800  p-2 rounded">Dış Cephe Çalışmalarımız</h2>
+      <main class="main md:container mx-auto py-10 pb-40">
+        <div class="flex flex-wrap justify-center items-center w-full mx-auto gap-6">
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/elgeoh2.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/elgeoh2.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/rst27ri.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/rst27ri.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/mj6u188.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/mj6u188.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/i5065t4.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/i5065t4.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/tgvoh3u.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/tgvoh3u.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/f7qd0mp.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/f7qd0mp.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/b9gc7xm.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/b9gc7xm.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <a href="https://i.hizliresim.com/eulcdwp.jpeg" data-fancybox="gallery"
+                data-caption="Örnek Açıklama Yazılması için alan">
+                <img src="https://i.hizliresim.com/eulcdwp.jpeg" alt="Image Gallery">
+              </a>
+            </div>
+          </div>
+      </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </article>
 
 
 
   <footer>
     <div id="footer" class="bg-gray-800 text-white w-full flex p-10  pt-14 gap-4 md:flex-row flex-col">
-      <div class="tracking-wide md:w-4/12 text-4xl text-center font-bold">Talay yapı <h1 class="text-xs font-bold">20
+      <a href="../index.html" class="tracking-wide md:w-4/12 text-4xl text-center font-bold flex flex-col justify-center items-center">
+        <img class="w-40" src="../logo-2.png" alt="logo" title="Talay Yapı">
+        <h1 class="text-xs font-bold">20
           Yıldan bu güne <br> Daima ileri!</h1>
-      </div>
+        </a>
 
-      <div class="md:w-3/12">
+      <div class="md:w-3/12 md:pr-8">
         <h1 class="text-3xl font-bold">Biz Kimiz?</h1>
         <span>
-          Talay Yapı, 10 yıldan uzun süredir inşaat sektöründe iz bırakan bir başarı hikayesi yazıyor. Deneyimli ekibi
-          ve
-          80'den fazla tamamlanan projesiyle, kaliteli hizmet sunmaya devam ediyor. İç cephe ve dış cephe tamiratlarında
-          uzmanlaşmış olan Talay Yapı, estetik ve dayanıklılığı bir araya getirerek müşterilerine çözümler
-          sunuyor.</span>
+          Talay Yapı, inşaat sektöründe uzun yıllardır öncü bir konumda bulunuyor. Kaliteli hizmet anlayışı ve deneyimli ekibi sayesinde müşterilerine güven veriyor. Özellikle iç ve dış cephe tamiratlarında uzmanlaşmış olup, estetik ve dayanıklılığı bir arada sağlayarak müşterilerine çözümler sunuyor.</span>
       </div>
       <div class="md:w-3/12">
         <h1 class="text-3xl font-bold">Hızlı Bağlantılar</h1>
@@ -320,18 +370,18 @@
       </div>
       <div class="md:w-3/12 md:ml-4">
         <h1 class="text-3xl font-bold">İletişim</h1>
-        <li class="hover:text-red-600 text-gray-400"><a href="tel:05491960534"><i class="fa-solid fa-phone"></i>
-            05491960534 <i class="fa-solid fa-arrow-up-right-from-square text-xs"> </i></li></a>
+        <li class="hover:text-red-600 text-gray-400"><a href="tel:+905458432288"><i class="fa-solid fa-phone"></i>
+          +90 545 843 22 88 <i class="fa-solid fa-arrow-up-right-from-square text-xs"> </i></li></a>
         <li class="text-gray-400 ">
         <li class="hover:text-red-600 text-gray-400"><a href="mailto:talayyapi@gmail.com"><i
               class="fa-regular fa-envelope"></i>
-            05491960534 <i class="fa-solid fa-arrow-up-right-from-square text-xs"> </i></li></a>
+              talayyapi@gmail.com <i class="fa-solid fa-arrow-up-right-from-square text-xs"> </i></li></a>
         <li class="text-gray-400 ">
 
 
           <a href="#">
             <h2 class="font-bold text-xl">Adres ve Kapsam </h2>
-        <li><a href="#">Kuruluşumuzdan bu güne Merkeziyetsiz algımızla hizmet vermketeyiz. <br> Tüm Dünyadayız!</a>
+        <li><a href="#">Kuruluşumuzdan bu güne Merkeziyetsiz algımızla hizmet vermketeyiz. <br> Tüm Türkiyedeyiz!</a>
         </li></a>
 
         <div class="flex mt-4 gap-4">
@@ -354,15 +404,15 @@
     </div>
 
     <div
-      class=" pt-20 bg-gray-800 flex items-center justify-center text-gray-400 p-1 py-2 text-sm font-bold text-center">
+      class="md:pb-0 pb-20 pt-20 bg-gray-800 flex items-center justify-center text-gray-400 p-1 py-3 text-sm font-bold text-center">
       Copyright © Talay Yapı ve İnşaat 2024. Tüm hakları saklıdır.</div>
   </footer>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        new WOW().init(); // Wow.js'i başlat
-      });
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new WOW().init(); // Wow.js'i başlat
+    });
 
-    </script>
+  </script>
 
 </body>
 <script>
@@ -449,7 +499,7 @@
 </script>
 
 </html>
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
