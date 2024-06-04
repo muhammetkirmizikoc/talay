@@ -1,15 +1,52 @@
-
 body {
-    background: url(background.jpg) no-repeat;
-    width: 100%;
+    background: #000000;
 }
 
-#iletisim-alan input ,
-#iletisim-alan textarea{
-    outline: none;
+article {
+    margin-top: -9px;
 }
-#iletisim-alan input:focus ,
-#iletisim-alan textarea:focus{
-    background-color: rgb(210, 232, 252);
+
+#iletisim-alan input,
+#iletisim-alan textarea {
+    outline: none;
+    background-color: rgba(62, 62, 62, 0.301);
+    border-radius: 5px;
+    color: #fff;
+}
+
+#iletisim-alan #gonder {
+    background-color: #DC2625;
+}
+
+#iletisim-alan #gonder:hover {
+    background-color: #e71b1b;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+#iletisim-alan input:focus,
+#iletisim-alan textarea:focus {
+    background-color: rgba(62, 62, 62, 0.621);
     border-radius: 10px;
+    color: #fff;
+    backdrop-filter: blur(100px);
+}
+
+#btnx a:hover {
+    transform: scale(1.1);
+}
+#guven .delay1{
+    animation-delay: 900ms;
+}
+#guven .delay2{
+    animation-delay: 1200ms;
+}
+#guven .delay3{
+    animation-delay: 2000ms;
+}
+#guven .delay4{
+    animation-delay: 2500ms;
+}
+#delay5{
+    animation-delay: 3000ms;
 }
