@@ -5,15 +5,17 @@ body {
 article {
     margin-top: -9px;
 }
-
 #iletisim-alan input,
 #iletisim-alan textarea {
     outline: none;
-    background-color: rgba(62, 62, 62, 0.301);
+     background-color: #efefef;
     border-radius: 5px;
     color: #fff;
 }
 
+#iletisim-alan input{
+    border-radius: 16px
+}
 #iletisim-alan #gonder {
     background-color: #DC2625;
 }
@@ -26,9 +28,8 @@ article {
 
 #iletisim-alan input:focus,
 #iletisim-alan textarea:focus {
-    background-color: rgba(62, 62, 62, 0.621);
     border-radius: 10px;
-    color: #fff;
+    color: #000000;
     backdrop-filter: blur(100px);
 }
 
