@@ -4,6 +4,7 @@ body {
 
 article {
     margin-top: -9px;
+    background-color: #fff;
 }
 #iletisim-alan input,
 #iletisim-alan textarea {
@@ -34,20 +35,5 @@ article {
 }
 
 #btnx a:hover {
-    transform: scale(1.1);
-}
-#guven .delay1{
-    animation-delay: 900ms;
-}
-#guven .delay2{
-    animation-delay: 1200ms;
-}
-#guven .delay3{
-    animation-delay: 2000ms;
-}
-#guven .delay4{
-    animation-delay: 2500ms;
-}
-#delay5{
-    animation-delay: 3000ms;
+    transform: scale(1.2);
 }

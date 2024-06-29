@@ -843,3 +843,23 @@ img {
 	 font-weight: 300;
 	 margin: 2em 0;
 }
+
+
+    /* Delay */
+
+    .delay1{
+        animation-delay: 1000ms;
+    }
+    .delay2{
+        animation-delay: 1300ms;
+    }
+    .delay3{
+        animation-delay: 2100ms;
+    }
+    .delay4{
+        animation-delay: 2600ms;
+    }
+    #delay5{
+        animation-delay: 3100ms;
+    }
+    
