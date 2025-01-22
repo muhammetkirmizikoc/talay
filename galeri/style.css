@@ -47,4 +47,10 @@
 }
 #btn:hover{
     transform: scale(1.1);
+    }
+
+
+#videox{
+    background-color: rgba(244, 244, 244, 0.545);
+    border-radius: 10px !important;
 }
